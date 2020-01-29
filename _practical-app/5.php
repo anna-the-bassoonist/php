@@ -18,7 +18,7 @@
 	echo "<br>";
 
 	$string = 'cos cos';
-	echo str_split($string)[1]; // string to array
+	echo str_split($string)[2]; // string to array
 	echo "<br>";
 
 	$myArray = [3,5,4,66];
@@ -28,6 +28,7 @@
 	echo end(array_values($myArray));
     echo "<br>";
 
+	$number = 5890;
 	$otherArray = [4,5,6,$number];
 	$found = in_array($number, $otherArray);
 

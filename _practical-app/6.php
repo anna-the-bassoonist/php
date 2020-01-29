@@ -20,14 +20,12 @@
 
 		if (isset($_POST['submit'])) {
 			$name = $_POST['name'];
-			echo 'name: ' . $name;
-		} else {
-			echo 'nothing';
+			if (!empty($name)) {
+				echo 'name: ' . $name;
+			} else {
+				echo 'name is empty';
+			}
 		}
-
-
-
-
 
 		?>
 
